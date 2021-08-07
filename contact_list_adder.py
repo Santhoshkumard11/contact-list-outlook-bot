@@ -26,3 +26,7 @@ def click_space(x,y):
 print("Loading contact list")
 load_contact_list()
 print("adding contact list")
+
+
+click_space(1019,532)
+start_time = time.time()
