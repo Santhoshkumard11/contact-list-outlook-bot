@@ -19,3 +19,14 @@ def click_space(x,y):
     moveTo(x,y)
     sleep(0.4)
     click()
+    
+    
+    
+# loading the emails to a contact_list from text file
+print("Loading contact list")
+load_contact_list()
+print("adding contact list")
+
+
+click_space(1019,532)
+start_time = time.time()
