@@ -45,3 +45,7 @@ for index, contact in enumerate(contact_list):
     sleep(0.31)
 
     press('enter')
+
+    
+    
+print(f"Process completed in {time.time() - start_time} seconds")
